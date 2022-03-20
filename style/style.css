@@ -137,6 +137,7 @@ table tr td:last-child {
     top: 120px;
     background-color: rgba(205,133,63, 0.8);
     position: absolute;
+    z-index: 10;
     left: 50%;
     margin-left: -100px;
     padding-top: 50px;
