@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Juego 3 en Raya</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<div class="container">
+    <h1 id="title">Reto</h1>
+    <div class="control">
+        <input type="text" id="playerName" class="playerName" placeholder="Nombre del jugador">
+        <button onclick="startGame()" id="startBtn">Jugar</button>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td class="cell" id="0" style="border-top-left-radius: 20px"></td>
+                <td class="cell" id="1"></td>
+                <td class="cell" id="2" style="border-top-right-radius: 20px"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="3"></td>
+                <td class="cell" id="4"></td>
+                <td class="cell" id="5"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="6" style="border-bottom-left-radius: 20px"></td>
+                <td class="cell" id="7"></td>
+                <td class="cell" id="8" style="border-bottom-right-radius: 20px"></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <p class="thinkBot" id="thinkBot">Pensando!!!!</p>
+        <p class="thinkBot" id="myturn">Su turno!!!!</p>
+    </div>
+</div>
+<div class="endgame">
+    <div class="text"></div>
+</div>
+<script src="app/app.js"></script>
+</body>
+</html>
